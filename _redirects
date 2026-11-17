@@ -1,0 +1,76 @@
+# Trailing-slash normalization — redirect bare slugs to canonical directory form
+/services  /services/  301
+/areas     /areas/     301
+/blog      /blog/      301
+/about/    /about      301
+/contact/  /contact    301
+/privacy/  /privacy    301
+/terms/    /terms      301
+
+# Common alias redirects
+/blog/category/identification           /blog/  301
+/blog/category/greensboro-specific      /blog/  301
+/blog/category/exclusion-prevention     /blog/  301
+/blog/category/property-management      /blog/  301
+/blog/category/commercial               /blog/  301
+/blog/category/pricing-services         /blog/  301
+/blog/category/cleanup-remediation      /blog/  301
+
+# Legacy flat URL redirects (in case external links use /services/slug without trailing slash)
+/services/rat-control-services          /services/rat-control-services/             301
+/services/mice-control-services         /services/mice-control-services/            301
+/services/rodent-removal-services       /services/rodent-removal-services/          301
+/services/emergency-rodent-removal      /services/emergency-rodent-removal/         301
+/services/roof-rat-removal-services     /services/roof-rat-removal-services/        301
+/services/norway-rat-control-services   /services/norway-rat-control-services/      301
+/services/rodent-exclusion-services     /services/rodent-exclusion-services/        301
+/services/rodent-inspection-services    /services/rodent-inspection-services/       301
+/services/crawl-space-rodent-sealing    /services/crawl-space-rodent-sealing/       301
+/services/attic-rodent-proofing         /services/attic-rodent-proofing/            301
+
+# Common misspellings / alternate spellings
+/areas/irving_park       /areas/irving-park/     301
+/areas/fisher_park       /areas/fisher-park/     301
+/areas/high_point        /areas/high-point/      301
+/areas/mc-leansville     /areas/mc-leansville/   301
+
+
+# Blog slug corrections
+/blog/how-to-seal-crawl-space-against-rats-greensboro  /blog/how-to-seal-greensboro-crawl-space-against-rats  301
+/blog/roof-rat-entry-points-irving-park-older-homes    /blog/roof-rat-entry-points-older-greensboro-homes      301
+/blog/rodent-proofing-greensboro-rental-property       /blog/rodent-proofing-greensboro-rental-property-landlord-checklist  301
+/blog/how-much-does-rat-removal-cost-greensboro        /blog/rat-removal-cost-greensboro-2025                  301
+
+# Batch 9: Decommissioned rural area pages → consolidated targets
+/areas/colfax        /areas/oak-ridge/  301
+/areas/colfax/       /areas/oak-ridge/  301
+/areas/julian        /areas/pleasant-garden/  301
+/areas/julian/       /areas/pleasant-garden/  301
+/areas/browns-summit        /areas/summerfield/  301
+/areas/browns-summit/       /areas/summerfield/  301
+/areas/whitsett        /areas/gibsonville/  301
+/areas/whitsett/       /areas/gibsonville/  301
+/areas/liberty        /areas/asheboro/  301
+/areas/liberty/       /areas/asheboro/  301
+/areas/ramseur        /areas/asheboro/  301
+/areas/ramseur/       /areas/asheboro/  301
+/areas/madison        /areas/rockingham-county/  301
+/areas/madison/       /areas/rockingham-county/  301
+/areas/mayodan        /areas/rockingham-county/  301
+/areas/mayodan/       /areas/rockingham-county/  301
+/areas/stoneville        /areas/rockingham-county/  301
+/areas/stoneville/       /areas/rockingham-county/  301
+/areas/ruffin        /areas/rockingham-county/  301
+/areas/ruffin/       /areas/rockingham-county/  301
+/areas/haw-river        /areas/alamance-county/  301
+/areas/haw-river/       /areas/alamance-county/  301
+/areas/snow-camp        /areas/alamance-county/  301
+/areas/snow-camp/       /areas/alamance-county/  301
+/areas/saxapahaw        /areas/alamance-county/  301
+/areas/saxapahaw/       /areas/alamance-county/  301
+
+# Removed author pages
+/authors  /about  301
+/authors/  /about  301
+/authors/darrell-thompson  /about  301
+/authors/darrell-thompson/  /about  301
